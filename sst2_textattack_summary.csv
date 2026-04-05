@@ -1,0 +1,3 @@
+stage,accuracy,precision,recall,f1
+clean,1.0,1.0,1.0,1.0
+adversarial,0.1,0.0,0.0,0.0
