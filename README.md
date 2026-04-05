@@ -2,11 +2,12 @@
 
 ## Overview
 
-It's a TextAttack pipeline for BERT-like binary classification models.
+It's a TextAttack pipeline for BERT-like binary classification models. It exploits the `TextFoolerJin2019` black-box adversarial attack framework that can fool NLP models by identifying and replacing the most influential words in a text. It utilizes a combination of word importance ranking and synonym substitution based on semantic similarity to generate adversarial examples. This method ensures that the resulting text remains grammatically correct and semantically consistent to human readers while successfully misleading the classifier.
 
 ## Dataset
 
-The dataset is GLUE SST-2, which is a binary sentiment benchmark: `0 = negative`, `1 = positive`.
+The dataset is GLUE SST-2, which is a binary sentiment benchmark: `0 = negative`, `1 = positive`. It contains 67349 train and
+872 validation examples, but we only use the the validation set.
 
 ## Attack setup
 
