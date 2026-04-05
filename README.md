@@ -22,9 +22,5 @@ We attack a small balanced subset of examples that the model `distilbert-base-un
 
 ## Outputs
 
-* `sst2_textattack_results.csv` includes 10 examples
+* `sst2_textattack_results.csv` includes 10 adversarial examples
 * `sst2_textattack_summary.csv` includes metrics
-
-## About
-
-DistilBERT for sentiment analysis and TextAttack.
